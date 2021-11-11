@@ -72,7 +72,7 @@ namespace EmployeeRegistrationForm
                 mail.Subject = "Registration Successfull";
                 mail.Body = "Thanks for your feedback we will get to you soon";
                 SmtpClient smptc = new SmtpClient();
-                smptc.Host = "smtp.outlook.com";
+                smptc.Host = "smtp.gmail.com";
                 smptc.Port = 587;
                 smptc.UseDefaultCredentials = false;
                 smptc.Credentials = new System.Net.NetworkCredential("test@birlaopenminds.com", "Nov@2021");
