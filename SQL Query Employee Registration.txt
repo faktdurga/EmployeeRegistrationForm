@@ -1,3 +1,6 @@
+--Befor Running project run below queries in SQL Server Management Studio also I have provided SQL file for the same
+
+
 --Create Table
 
 CREATE TABLE EmployeeDetails
